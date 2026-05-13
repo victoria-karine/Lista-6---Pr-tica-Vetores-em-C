@@ -7,9 +7,9 @@ int main() {
     int i, soma = 0;
   //Leia os valores 
   
-for (pos = 0; pos < 8; pos++) {
+for (i = 0; pos < 8; i++) {
   printf("Digite o nº da posição %d\n", pos);
-  scanf ("%d", &numeros[pos]);
+  scanf ("%d", &numeros[i]);
   
  
   for (pos = 0; pos < 8, pos++);
