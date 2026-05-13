@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
 
 int main() {
@@ -6,19 +6,16 @@ int main() {
     int numeros [10];
     int pos;
 
-
   //Leia os 10 numeros
 
 for (pos = 0; pos < 10; pos++) {
   printf("Digite o nº da posição %d\n", pos);
   scanf ("%d", &numeros[pos]);
-  
+  }
   printf("Valores digitados: %d\n");
-  for (pos = 0; pos < 10; pos++);{
+  for (pos = 0; pos < 10; pos++){
   printf ("numeros [%d] = %d\n", pos, numeros [pos]);
-}}
+}
 
-    //Exiba os 10 numeros
-
-    return 0;
+return 0;
 }
