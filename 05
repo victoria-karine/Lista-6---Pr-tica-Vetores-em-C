@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    float numeros [6];
+    int i;
+    float soma = 0, media;
+    
+    printf("Media = %2f\n", media);
+    
+    for (i = 0;i <6; i++) {
+    printf ("A média dos valores é: %2f/n" );
+    }
+    
+    
+    return 0;
+}
