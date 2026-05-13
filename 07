@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    int numeros [8];
+    int i;
+    //Leia os valores
+    //Exiba em ordem inversa
+    
+    for (i = 0; i < 8; i--) {
+    printf ("DIgite o nº da posição %d: ", i);
+    scanf ("%d", &numeros [i]);
+}
+  
+return 0;
+
+}
